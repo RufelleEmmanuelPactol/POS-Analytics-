@@ -185,12 +185,14 @@
             this.menuStrip1.Size = new System.Drawing.Size(1898, 33);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // generateAnalyticsToolStripMenuItem1
             // 
             this.generateAnalyticsToolStripMenuItem1.Name = "generateAnalyticsToolStripMenuItem1";
             this.generateAnalyticsToolStripMenuItem1.Size = new System.Drawing.Size(169, 29);
             this.generateAnalyticsToolStripMenuItem1.Text = "Generate Analytics";
+            this.generateAnalyticsToolStripMenuItem1.Click += new System.EventHandler(this.generateAnalyticsToolStripMenuItem1_Click);
             // 
             // aboutToolStripMenuItem
             // 

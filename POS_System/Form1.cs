@@ -405,5 +405,24 @@ namespace POS_System
             richTextBox1.Text = "";
             
         }
+
+        private void generateAnalyticsToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the Analytics form
+            Analytics analytics = new Analytics();
+            analytics.FormClosed += (s, args) => { this.Close(); };
+
+            // Hide the current form (Form1) instead of closing it
+            this.Hide();
+
+            // Show the Analytics form
+            analytics.Show();
+        }
+
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            
+        }
     }
 }
