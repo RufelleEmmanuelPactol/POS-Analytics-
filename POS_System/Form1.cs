@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -37,6 +38,13 @@ namespace POS_System
             WindowState = FormWindowState.Maximized;
             FormBorderStyle = FormBorderStyle.None;
             dataGridView1.ReadOnly = true;
+        }
+
+        private const string command = "streamlit run ./dashboard.py --server.headless=true";
+        private void InintalizeStreamlit()
+        {
+            Process.Start(command);
+            
         }
 
         private void InitializeDataGridView()
@@ -410,10 +418,8 @@ namespace POS_System
         {
             // Create an instance of the Analytics form
             Analytics analytics = new Analytics();
-            analytics.FormClosed += (s, args) => { this.Close(); };
 
             // Hide the current form (Form1) instead of closing it
-            this.Hide();
 
             // Show the Analytics form
             analytics.Show();

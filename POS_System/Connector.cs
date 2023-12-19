@@ -9,7 +9,7 @@
         {
 
             private string _connectionString =
-                "server=localhost;database=xample;user=root;password=devenv";
+                "server=localhost;database=xample;user=root;password=";
 
             private MySqlConnection _connection;
 
