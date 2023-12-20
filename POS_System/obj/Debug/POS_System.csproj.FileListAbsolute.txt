@@ -45,3 +45,5 @@ C:\Users\rufel\RiderProjects\POS_System\POS_System\obj\Debug\POS_System.exe
 C:\Users\rufel\RiderProjects\POS_System\POS_System\obj\Debug\POS_System.pdb
 C:\Users\rufel\RiderProjects\POS_System\POS_System\obj\Debug\POS_System.Form1.resources
 C:\Users\rufel\RiderProjects\POS_System\POS_System\obj\Debug\POS_System.Analytics.resources
+C:\Users\rufel\RiderProjects\POS_System\POS_System\obj\Debug\POS_System.LoadFrame.resources
+C:\Users\rufel\RiderProjects\POS_System\POS_System\obj\Debug\POS_System.WebView.resources
